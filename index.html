@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="/Isi/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<header>
+    <!-- Navigation -->
+    <section class="navigation">
+        <div class="container">
+            <div class="box-navigation">
+                <div class="box">
+                    <h1><i class="ri-pages-fill"></i></h1>
+                </div>
+                    <div class="box menu-navigation">
+                    <ul>
+                        <li>
+                            <i class="ri-home-7-fill"></i>
+                            <a href="#" >Dashboard</a></li>
+                        <li>
+                            <i class="ri-information-fill"></i>
+                            <a href="#about">About</a></li>
+                        <li>
+                            <i class="ri-dashboard-fill"></i>
+                            <a href="#project">Project</a></li>
+                        <li>
+                            <i class="ri-contacts-fill"></i>
+                            <a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="box menu-bar">
+                    <i class="ri-menu-fill" style="color:white;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Navigation -->
+    <!-- Hero -->
+    <section id="dashboard"class="hero">
+        <h1>Hallo</h1>
+        <p>Selamat datang di website saya, kalian mau bikin website seperti saya ?, daftar course saya ya hehehe murah kok cuman 100jt lifetime perbulan nya 10k</p>
+        <button class="button" onclick="window.location.href='Form.html'">Daftar</button>
+    </section>
+    <!-- Hero -->
+</header>
+
+<!-- About -->
+<section class="about slide-in-fwd-center" id="about">
+    <div class="container">
+        <div class="box-about">
+            <div class="box">
+                <h1 class="judul">About Me</h1>
+                <h1 id="pengenalan">Halo saya, <span id="text"></span></h1>
+                <p> Halo selamat datang di website saya, 
+                    ini lah hasil dari website saya kurang bagus karna ini pertama kalinya saya membuat website ini dan saya dapat refrensi dari youtube dan yg lainnya,
+                    saya belajar coding dari dea afrizal, web programming UNPAS, dan Ngoding mastery. saya belajar dari sana saya sangat senang dari apa yg dijelaskan dan di samping ini adalah salah satu contoh videonya.
+                </p>
+            </div>
+            <div class="box">
+                <iframe src="https://www.youtube.com/embed/71a2zeC71gk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About -->
+<!-- Project -->
+<section class="project" id="project">
+    <div class="project-judul">
+        <h1>Our Project</h1>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="temporary_text">
+          <img src="/Image/Rumah-Minimalis-AutoCAD-2-1.jpg" alt="Image 1" class="temp_image">
+        </div>
+        <div class="card_content">
+          <span class="card_title">3D Model</span>
+          <span class="card_subtitle">3D Model Rumah Minimalis memiliki kesan modern.</span>
+          <p class="card_description">Rumah modern, desain klasik, teras luas, atap landai, jendela besar, interior minimalis, dapur lengkap, ruang tidur utama dengan balkon pribadi, dua kamar tidur tambahan, taman belakang indah, lingkungan nyaman untuk keluarga.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="temporary_text">
+          <img src="/Image/rsz_2921530_378.jpg" alt="Image 1" class="temp_image">
+          </div>
+          <div class="card_content">
+            <span class="card_title">Web Design</span>
+            <span class="card_subtitle">Web Design studio </span>
+            <p class="card_description">
+              Studio Desain Web: Kreativitas, inovasi, tampilan modern, responsif, UX optimal, solusi bisnis yang sesuai dengan visi klien, menciptakan pengalaman web yang menarik.Studio ini menawarkan solusi desain web yang sesuai dengan kebutuhan bisnis dan visi klien.</p>
+          </div>
+      </div>
+      <div class="card">
+        <div class="temporary_text">
+          <img src="/Image/computer-program-coding-screen.jpg" alt="Image 1" class="temp_image">
+          </div>
+          <div class="card_content">
+            <span class="card_title">Contoh Program</span>
+            <span class="card_subtitle">Disini saya membuat website dengan html,js, dan css.</span>
+            <p class="card_description">
+              HTML, JS, CSS: Struktur dan konten web (HTML), interaksi dinamis dan logika (JS), tampilan dan gaya visual (CSS).Dengan HTML, JS, dan CSS, Anda memiliki alat yang kuat untuk merancang, mengembangkan, dan mempercantik situs web yang responsif dan berfungsi dengan baik.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Project -->
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="box-contact">
+        <h1>Contact Us</h1>
+        <form action="">
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan" cols="55" rows="10"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="contact-footer">
+        <div class="social-icons">
+          <a href="https://www.instagram.com/your-instagram" target="_blank" rel="noopener noreferrer">
+            <img src="/Image/instagram-logo-108.png" alt="Instagram">
+          </a>
+          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+            <img src="/Image/github-fill (2).png" alt="GitHub">
+          </a>
+          <a href="https://discord.gg/your-discord" target="_blank" rel="noopener noreferrer">
+            <img src="/Image/discord-alt-logo-108.png" alt="Discord">
+          </a>
+          <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">
+            <img src="/Image/telegram-fill.png" alt="Telegram">
+          </a>
+          <a href="https://twitter.com/...." target="_blank" rel="noopener noreferrer">
+            <img src="/Image/twitter-logo-108.png" alt="Telegram">
+          </a>
+          <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/Image/facebook-logo-108.png" alt="Telegram">
+          </a>
+        </div>
+      </footer>
+  </section>
+  <!-- Contact -->
+  <script src="/Isi/Javascript/java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
